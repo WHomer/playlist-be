@@ -1,0 +1,683 @@
+{
+  "message": {
+    "header": {
+      "status_code": 200,
+      "execute_time": 0.087295055389404,
+      "available": 4667
+    },
+    "body": {
+      "track_list": [
+        {
+          "track": {
+            "track_id": 62409325,
+            "track_name": "Happy Birthday Justin Bieber",
+            "track_name_translation_list": [],
+            "track_rating": 3,
+            "commontrack_id": 32270092,
+            "instrumental": 1,
+            "explicit": 0,
+            "has_lyrics": 0,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 1,
+            "album_id": 18134632,
+            "album_name": "The Happy Birthday Album",
+            "artist_id": 24849021,
+            "artist_name": "XY Unlimited",
+            "track_share_url": "https://www.musixmatch.com/lyrics/XY-Unlimited/Happy-Birthday-Justin-Bieber?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/XY-Unlimited/Happy-Birthday-Justin-Bieber/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2016-03-22T08:47:58Z",
+            "primary_genres": {
+              "music_genre_list": []
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 81590279,
+            "track_name": "Justin Bieber or Just in Islam Forever",
+            "track_name_translation_list": [],
+            "track_rating": 6,
+            "commontrack_id": 45491058,
+            "instrumental": 1,
+            "explicit": 0,
+            "has_lyrics": 0,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 12,
+            "album_id": 20598164,
+            "album_name": "The Jenggot",
+            "artist_id": 27944832,
+            "artist_name": "The Jenggot",
+            "track_share_url": "https://www.musixmatch.com/lyrics/The-Jenggot/Justin-Bieber-or-Just-in-Islam-Forever?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/The-Jenggot/Justin-Bieber-or-Just-in-Islam-Forever/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-03-25T01:46:12Z",
+            "primary_genres": {
+              "music_genre_list": []
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 85010664,
+            "track_name": "Sorry (Originally Performed by Justin Bieber)",
+            "track_name_translation_list": [],
+            "track_rating": 6,
+            "commontrack_id": 47866462,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 1,
+            "album_id": 20946168,
+            "album_name": "Running 2015 - 2016",
+            "artist_id": 29023820,
+            "artist_name": "Running Playlist",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Running-Playlist/Sorry-Originally-Performed-by-Justin-Bieber?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Running-Playlist/Sorry-Originally-Performed-by-Justin-Bieber/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-12-12T18:30:09Z",
+            "primary_genres": {
+              "music_genre_list": []
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 96335804,
+            "track_name": "I'll Show You (Originally Performed By Justin Bieber) - Karaoke Version",
+            "track_name_translation_list": [],
+            "track_rating": 1,
+            "commontrack_id": 53245786,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 1,
+            "album_id": 21719026,
+            "album_name": "January Karaoke Hits 2016 #2",
+            "artist_id": 24502378,
+            "artist_name": "Sunfly Karaoke",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Sunfly-Karaoke/I-ll-Show-You-Originally-Performed-By-Justin-Bieber-Karaoke-Version?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Sunfly-Karaoke/I-ll-Show-You-Originally-Performed-By-Justin-Bieber-Karaoke-Version/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2016-01-24T13:20:04Z",
+            "primary_genres": {
+              "music_genre_list": []
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 53850999,
+            "track_name": "Die in Your Arms (Karaoke Version) [In the Style of Justin Bieber]",
+            "track_name_translation_list": [],
+            "track_rating": 1,
+            "commontrack_id": 25980925,
+            "instrumental": 0,
+            "explicit": 1,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 1,
+            "album_id": 17142811,
+            "album_name": "Karaoke (In the Style of Justin Bieber)",
+            "artist_id": 24616290,
+            "artist_name": "The Karaoke Universe",
+            "track_share_url": "https://www.musixmatch.com/lyrics/The-Karaoke-Universe/Die-in-Your-Arms-Karaoke-Version-In-the-Style-of-Justin-Bieber?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/The-Karaoke-Universe/Die-in-Your-Arms-Karaoke-Version-In-the-Style-of-Justin-Bieber/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-02-20T23:12:50Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 52,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Karaoke",
+                    "music_genre_name_extended": "Karaoke",
+                    "music_genre_vanity": "Karaoke"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 90205975,
+            "track_name": "Sorry (Originally Performed by Justin Bieber) [Instrumental Karaoke]",
+            "track_name_translation_list": [],
+            "track_rating": 1,
+            "commontrack_id": 50298408,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 0,
+            "album_id": 21260687,
+            "album_name": "Sorry (Originally Performed by Justin Bieber) [Instrumental Karaoke]",
+            "artist_id": 29006102,
+            "artist_name": "Kara-Okie-Dokie",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Kara-Okie-Dokie/Sorry-Originally-Performed-by-Justin-Bieber-Instrumental-Karaoke?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Kara-Okie-Dokie/Sorry-Originally-Performed-by-Justin-Bieber-Instrumental-Karaoke/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2016-01-22T18:26:04Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 52,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Karaoke",
+                    "music_genre_name_extended": "Karaoke",
+                    "music_genre_vanity": "Karaoke"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 127638906,
+            "track_name": "Company (Karaoke Version) [Originally Performed By Justin Bieber]",
+            "track_name_translation_list": [],
+            "track_rating": 1,
+            "commontrack_id": 70819175,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 0,
+            "album_id": 25808062,
+            "album_name": "Zoom Karaoke Pop Chart Picks 2016 - Part 5",
+            "artist_id": 24832895,
+            "artist_name": "Zoom Karaoke",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Zoom-Karaoke/Company-Karaoke-Version-Originally-Performed-By-Justin-Bieber?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Zoom-Karaoke/Company-Karaoke-Version-Originally-Performed-By-Justin-Bieber/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2017-03-22T15:11:19Z",
+            "primary_genres": {
+              "music_genre_list": []
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 119983967,
+            "track_name": "Sorry (Originally Performed by Justin Bieber) [Karaoke Version]",
+            "track_name_translation_list": [],
+            "track_rating": 1,
+            "commontrack_id": 48202871,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 0,
+            "album_id": 24722975,
+            "album_name": "Sorry (Originally Performed by Justin Bieber) [Karaoke Version]",
+            "artist_id": 28673905,
+            "artist_name": "Chart Topping Karaoke",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Chart-Topping-Karaoke/Sorry-Originally-Performed-by-Justin-Bieber-Karaoke-Version?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Chart-Topping-Karaoke/Sorry-Originally-Performed-by-Justin-Bieber-Karaoke-Version/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-12-16T14:20:02Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 52,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Karaoke",
+                    "music_genre_name_extended": "Karaoke",
+                    "music_genre_vanity": "Karaoke"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 99357671,
+            "track_name": "Love Yourself (Originally Performed by Justin Bieber) [Karaoke Instrumental]",
+            "track_name_translation_list": [],
+            "track_rating": 18,
+            "commontrack_id": 54816119,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 1,
+            "album_id": 21998915,
+            "album_name": "Love Yourself (Originally Performed by Justin Bieber) [Karaoke Instrumental]",
+            "artist_id": 28735588,
+            "artist_name": "Karaoke Freaks",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Karaoke-Freaks/Love-Yourself-Originally-Performed-by-Justin-Bieber-Karaoke-Instrumental?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Karaoke-Freaks/Love-Yourself-Originally-Performed-by-Justin-Bieber-Karaoke-Instrumental/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2016-11-19T19:43:21Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 52,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Karaoke",
+                    "music_genre_name_extended": "Karaoke",
+                    "music_genre_vanity": "Karaoke"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 63915643,
+            "track_name": "Die In Your Arms (Originally Performed by Justin Bieber) [Karaoke Version]",
+            "track_name_translation_list": [],
+            "track_rating": 1,
+            "commontrack_id": 33402249,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 0,
+            "album_id": 18352076,
+            "album_name": "Die In Your Arms (Originally Performed by Justin Bieber) [Karaoke Version]",
+            "artist_id": 24759400,
+            "artist_name": "Cover Guru",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Cover-Guru/Die-In-Your-Arms-Originally-Performed-by-Justin-Bieber-Karaoke-Version?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Cover-Guru/Die-In-Your-Arms-Originally-Performed-by-Justin-Bieber-Karaoke-Version/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-07-31T15:38:04Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 14,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Pop",
+                    "music_genre_name_extended": "Pop",
+                    "music_genre_vanity": "Pop"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 69572985,
+            "track_name": "All That Matters (Karaoke Version) [Originally Performed By Justin Bieber]",
+            "track_name_translation_list": [],
+            "track_rating": 6,
+            "commontrack_id": 37593044,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 4,
+            "album_id": 19168217,
+            "album_name": "All That Matters (Karaoke Version) [Originally Performed By Justin Bieber]",
+            "artist_id": 27397772,
+            "artist_name": "Pro Instrumentals",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Pro-Instrumentals/All-That-Matters-Karaoke-Version-Originally-Performed-By-Justin-Bieber?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Pro-Instrumentals/All-That-Matters-Karaoke-Version-Originally-Performed-By-Justin-Bieber/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-09-03T07:02:34Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 52,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Karaoke",
+                    "music_genre_name_extended": "Karaoke",
+                    "music_genre_vanity": "Karaoke"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 59054283,
+            "track_name": "Stuck In The Moment (in the Style of Justin Bieber)",
+            "track_name_translation_list": [],
+            "track_rating": 3,
+            "commontrack_id": 29608591,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 0,
+            "album_id": 17702124,
+            "album_name": "Never Say Never (in the Style of Justin Bieber)",
+            "artist_id": 24694339,
+            "artist_name": "Sing Top 10",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Sing-Top-10/Stuck-In-The-Moment-in-the-Style-of-Justin-Bieber?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Sing-Top-10/Stuck-In-The-Moment-in-the-Style-of-Justin-Bieber/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-02-23T06:45:12Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 14,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Pop",
+                    "music_genre_name_extended": "Pop",
+                    "music_genre_vanity": "Pop"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 69676743,
+            "track_name": "Mistletoe (Originally Performed by Justin Bieber) [Instrumental Karaoke]",
+            "track_name_translation_list": [],
+            "track_rating": 2,
+            "commontrack_id": 37785380,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 0,
+            "album_id": 19184265,
+            "album_name": "Mistletoe (Originally Performed by Justin Bieber) [Instrumental Karaoke]",
+            "artist_id": 26509968,
+            "artist_name": "Karaoke HD",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Karaoke-Hd/Mistletoe-Originally-Performed-by-Justin-Bieber-Instrumental-Karaoke?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Karaoke-Hd/Mistletoe-Originally-Performed-by-Justin-Bieber-Instrumental-Karaoke/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-02-12T05:30:12Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 52,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Karaoke",
+                    "music_genre_name_extended": "Karaoke",
+                    "music_genre_vanity": "Karaoke"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 64201265,
+            "track_name": "All Bad (Originally Performed by Justin Bieber) [Vocal Version]",
+            "track_name_translation_list": [],
+            "track_rating": 15,
+            "commontrack_id": 37636880,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 1,
+            "album_id": 18396853,
+            "album_name": "All Bad (Originally Performed by Justin Bieber) [Karaoke Version]",
+            "artist_id": 27084456,
+            "artist_name": "Mega Tracks Karaoke Band",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Mega-Tracks-Karaoke-Band/All-Bad-Originally-Performed-by-Justin-Bieber-Vocal-Version?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Mega-Tracks-Karaoke-Band/All-Bad-Originally-Performed-by-Justin-Bieber-Vocal-Version/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-06-28T16:29:14Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 52,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Karaoke",
+                    "music_genre_name_extended": "Karaoke",
+                    "music_genre_vanity": "Karaoke"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 64816677,
+            "track_name": "Home This Christmas (Instrumental Version in the Style of Justin Bieber)",
+            "track_name_translation_list": [],
+            "track_rating": 1,
+            "commontrack_id": 34090656,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 1,
+            "has_richsync": 0,
+            "num_favourite": 27,
+            "album_id": 18482967,
+            "album_name": "Christmas Party: 30 Holiday Jams",
+            "artist_id": 24780926,
+            "artist_name": "Party Machine",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Party-Machine/Home-This-Christmas-Instrumental-Version-in-the-Style-of-Justin-Bieber?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Party-Machine/Home-This-Christmas-Instrumental-Version-in-the-Style-of-Justin-Bieber/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-04-26T15:20:30Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 14,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Pop",
+                    "music_genre_name_extended": "Pop",
+                    "music_genre_vanity": "Pop"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 35069581,
+            "track_name": "One Time (Made Famous by Justin Bieber)",
+            "track_name_translation_list": [],
+            "track_rating": 3,
+            "commontrack_id": 14406954,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 0,
+            "album_id": 15579899,
+            "album_name": "Karaoke Blockbuster Hits",
+            "artist_id": 24752046,
+            "artist_name": "Karaoke All-Stars",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Karaoke-All-Stars/One-Time-Made-Famous-by-Justin-Bieber?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Karaoke-All-Stars/One-Time-Made-Famous-by-Justin-Bieber/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-05-06T21:57:02Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 14,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Pop",
+                    "music_genre_name_extended": "Pop",
+                    "music_genre_vanity": "Pop"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 100972893,
+            "track_name": "Love Yourself (Originally Performed by Justin Bieber) [Vocal]",
+            "track_name_translation_list": [],
+            "track_rating": 13,
+            "commontrack_id": 55598360,
+            "instrumental": 1,
+            "explicit": 0,
+            "has_lyrics": 0,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 12,
+            "album_id": 22150753,
+            "album_name": "Love Yourself (Originally Performed by Justin Bieber) [Karaoke Version]",
+            "artist_id": 24612733,
+            "artist_name": "Singer's Edge Karaoke",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Singer-s-Edge-Karaoke/Love-Yourself-Originally-Performed-by-Justin-Bieber-Vocal?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Singer-s-Edge-Karaoke/Love-Yourself-Originally-Performed-by-Justin-Bieber-Vocal/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2016-03-02T02:00:23Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 52,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Karaoke",
+                    "music_genre_name_extended": "Karaoke",
+                    "music_genre_vanity": "Karaoke"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 63077490,
+            "track_name": "Boyfriend (Originally Performed by Justin Bieber) [Karaoke Version]",
+            "track_name_translation_list": [],
+            "track_rating": 7,
+            "commontrack_id": 32778985,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 1,
+            "album_id": 18229821,
+            "album_name": "Boyfriend (Originally Performed by Justin Bieber) [Karaoke Version]",
+            "artist_id": 24759400,
+            "artist_name": "Cover Guru",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Cover-Guru/Boyfriend-Originally-Performed-by-Justin-Bieber-Karaoke-Version?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Cover-Guru/Boyfriend-Originally-Performed-by-Justin-Bieber-Karaoke-Version/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-02-20T10:06:59Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 14,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Pop",
+                    "music_genre_name_extended": "Pop",
+                    "music_genre_vanity": "Pop"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 70049084,
+            "track_name": "Mistletoe (Originally Performed by Justin Bieber) [Karaoke Version]",
+            "track_name_translation_list": [],
+            "track_rating": 1,
+            "commontrack_id": 38081359,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 0,
+            "album_id": 19243229,
+            "album_name": "Pure Kids Christmas Sing-a-Long",
+            "artist_id": 24938576,
+            "artist_name": "Party Music Central",
+            "track_share_url": "https://www.musixmatch.com/lyrics/Party-Music-Central/Mistletoe-Originally-Performed-by-Justin-Bieber-Karaoke-Version?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/Party-Music-Central/Mistletoe-Originally-Performed-by-Justin-Bieber-Karaoke-Version/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-12-02T02:51:45Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 4,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Children's Music",
+                    "music_genre_name_extended": "Children's Music",
+                    "music_genre_vanity": "Children's-Music"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "track": {
+            "track_id": 35345130,
+            "track_name": "Boyfriend (In the Style of Justin Bieber)",
+            "track_name_translation_list": [],
+            "track_rating": 1,
+            "commontrack_id": 14599539,
+            "instrumental": 0,
+            "explicit": 0,
+            "has_lyrics": 1,
+            "has_subtitles": 0,
+            "has_richsync": 0,
+            "num_favourite": 0,
+            "album_id": 15599130,
+            "album_name": "Super Party Hits 2012",
+            "artist_id": 14357999,
+            "artist_name": "AVID All Stars",
+            "track_share_url": "https://www.musixmatch.com/lyrics/AVID-All-Stars/Boyfriend-In-the-Style-of-Justin-Bieber?utm_source=application&utm_campaign=api&utm_medium=",
+            "track_edit_url": "https://www.musixmatch.com/lyrics/AVID-All-Stars/Boyfriend-In-the-Style-of-Justin-Bieber/edit?utm_source=application&utm_campaign=api&utm_medium=",
+            "restricted": 0,
+            "updated_time": "2015-02-22T03:01:45Z",
+            "primary_genres": {
+              "music_genre_list": [
+                {
+                  "music_genre": {
+                    "music_genre_id": 14,
+                    "music_genre_parent_id": 34,
+                    "music_genre_name": "Pop",
+                    "music_genre_name_extended": "Pop",
+                    "music_genre_vanity": "Pop"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
