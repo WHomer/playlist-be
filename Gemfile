@@ -7,6 +7,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'factory_bot_rails'
 gem 'faker'
 gem 'faraday'
+gem 'fast_jsonapi'
 gem 'figaro'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
