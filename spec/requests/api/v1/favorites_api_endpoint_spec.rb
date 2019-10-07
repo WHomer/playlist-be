@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Favorites API endpoint' do
+RSpec.describe 'Favorites API endpoint', type: :request do
   before :each do
     @user = create(:user)
 
@@ -26,5 +26,15 @@ RSpec.describe 'Favorites API endpoint' do
     expect(favorite[:artist]).to eq(@s1.artist)
     expect(favorite[:genre]).to eq(@s1.genre)
     expect(favorite[:rating]).to eq(@s1.rating)
+  end
+
+  it 'user receives a 404 error when no favorite is found' do
+    get '/api/v1/favorites/9999'
+
+    error = JSON.parse(response.body, symbolize_names: true)[:error]
+
+    expect(response.status).to eq(404)
+
+    expect(error).to eq('Not found')
   end
 end
