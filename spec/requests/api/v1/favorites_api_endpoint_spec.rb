@@ -11,7 +11,6 @@ RSpec.describe 'Favorites API endpoint', type: :request do
 
     @f1 = create(:user_song, user: @user, song: @s1)
     @f2 = create(:user_song, user: @user, song: @s2)
-    @f3 = create(:user_song, user: @user, song: @s3)
   end
 
   it 'user can retrieve a single favorite by ID' do
@@ -19,7 +18,7 @@ RSpec.describe 'Favorites API endpoint', type: :request do
 
     favorite = JSON.parse(response.body, symbolize_names: true)[:data][:attributes]
 
-    expect(response).to be_successful
+    expect(response.status).to eq(200)
 
     expect(favorite[:name]).to eq(@s1.name)
     expect(favorite[:album]).to eq(@s1.album)
@@ -36,5 +35,27 @@ RSpec.describe 'Favorites API endpoint', type: :request do
     expect(response.status).to eq(404)
 
     expect(error).to eq('Not found')
+  end
+
+  it 'user can create a new favorite' do
+    params = {  source_track_id: @s3.source_track_id,
+                name: @s3.name,
+                artist: @s3.artist,
+                album: @s3.album,
+                rating: @s3.rating,
+                user_id: @user.id
+              }
+
+    post '/api/v1/favorites', params: params
+
+    favorite = JSON.parse(response.body, symbolize_names: true)[:data][:attributes]
+
+    expect(response.status).to eq(201)
+
+    expect(favorite[:name]).to eq(@s3.name)
+    expect(favorite[:album]).to eq(@s3.album)
+    expect(favorite[:artist]).to eq(@s3.artist)
+    expect(favorite[:genre]).to eq(@s3.genre)
+    expect(favorite[:rating]).to eq(@s3.rating)
   end
 end
