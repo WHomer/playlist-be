@@ -1,4 +1,6 @@
 class Api::V1::FavoritesController < ApplicationController
+  before_action :authenticate_user!
+
   before_action :find_favorite, only: [:show, :destroy]
 
   def create
