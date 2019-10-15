@@ -3,6 +3,12 @@ class Api::V1::FavoritesController < ApplicationController
 
   before_action :find_favorite, only: [:show, :destroy]
 
+  def index
+    user = User.first
+    songs = user.songs
+    render json: SongSerializer.new(songs)
+  end
+
   def create
     song = Song.find_or_create_by(song_params)
     UserSong.create(song: song, user_id: params[:user_id])
