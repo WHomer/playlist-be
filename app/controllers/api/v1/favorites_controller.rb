@@ -4,8 +4,7 @@ class Api::V1::FavoritesController < ApplicationController
   before_action :find_favorite, only: [:show, :destroy]
 
   def index
-    user = User.first
-    songs = user.songs
+    songs = current_user.songs
     render json: SongSerializer.new(songs)
   end
 
