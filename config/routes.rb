@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :favorites, only: [:show, :create, :destroy]
+      resources :favorites, only: [:index, :show, :create, :destroy]
     end
   end
 end
