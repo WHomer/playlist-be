@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  rescue_from ActiveRecord::RecordNotFound, with: :record_not_found_error
+  rescue_from ActiveRecord::RecordNotFound, with: :not_found_error
 
   private
 
@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
     if user_signed_in?
       super
     else
-      unauthorized_error
+      not_found_error
     end
   end
 
@@ -19,7 +19,7 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def record_not_found_error
+  def not_found_error
     render json: {
       errors: [
         {
@@ -29,18 +29,6 @@ class ApplicationController < ActionController::Base
       ]
     },
     status: :not_found
-  end
-
-  def unauthorized_error
-    render json: {
-      errors: [
-        {
-          status: 401,
-          title: 'Unauthorized'
-        }
-      ]
-    },
-    status: :unauthorized
   end
 
   def validation_error(resource)

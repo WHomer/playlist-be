@@ -122,48 +122,48 @@ RSpec.describe 'Favorites API endpoint', type: :request do
       @f2 = create(:user_song, user: @user, song: @s2)
     end
 
-    it 'user receives a 401 error when retrieving all favorites' do
+    it 'user receives a 404 error when retrieving all favorites' do
       get '/api/v1/favorites'
 
       error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
 
-      expect(response.status).to eq(401)
+      expect(response.status).to eq(404)
 
-      expect(error[:status]).to eq(401)
-      expect(error[:title]).to eq('Unauthorized')
+      expect(error[:status]).to eq(404)
+      expect(error[:title]).to eq('Not Found')
     end
 
-    it 'user receives a 401 error when retreiving a single favorite by ID' do
+    it 'user receives a 404 error when retreiving a single favorite by ID' do
       get "/api/v1/favorites/#{@f1.id}"
 
       error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
 
-      expect(response.status).to eq(401)
+      expect(response.status).to eq(404)
 
-      expect(error[:status]).to eq(401)
-      expect(error[:title]).to eq('Unauthorized')
+      expect(error[:status]).to eq(404)
+      expect(error[:title]).to eq('Not Found')
     end
 
-    it 'user receives a 401 error when creating a favorite' do
+    it 'user receives a 404 error when creating a favorite' do
       post '/api/v1/favorites'
 
       error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
 
-      expect(response.status).to eq(401)
+      expect(response.status).to eq(404)
 
-      expect(error[:status]).to eq(401)
-      expect(error[:title]).to eq('Unauthorized')
+      expect(error[:status]).to eq(404)
+      expect(error[:title]).to eq('Not Found')
     end
 
-    it 'user receives a 401 error when deleting a favorite' do
+    it 'user receives a 404 error when deleting a favorite' do
       delete "/api/v1/favorites/#{@f2.id}"
 
       error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
 
-      expect(response.status).to eq(401)
+      expect(response.status).to eq(404)
 
-      expect(error[:status]).to eq(401)
-      expect(error[:title]).to eq('Unauthorized')
+      expect(error[:status]).to eq(404)
+      expect(error[:title]).to eq('Not Found')
     end
   end
 end
