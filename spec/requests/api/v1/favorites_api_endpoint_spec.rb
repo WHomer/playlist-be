@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Favorites API endpoint', type: :request do
   before :each do
-    @user = create(:user)
+    @user = create(:user, email: 'email@test.com', password: 'test123')
 
     @s1 = create(:song)
     @s2 = create(:song)
@@ -11,6 +11,8 @@ RSpec.describe 'Favorites API endpoint', type: :request do
 
     @f1 = create(:user_song, user: @user, song: @s1)
     @f2 = create(:user_song, user: @user, song: @s2)
+
+    sign_in @user
   end
 
   it 'user can retrieve all favorites' do
