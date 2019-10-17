@@ -66,7 +66,8 @@ RSpec.describe 'Favorites API endpoint', type: :request do
     end
 
     it 'user can create a new favorite' do
-      params = {  source_track_id: @s3.source_track_id,
+      params = {
+                  source_track_id: @s3.source_track_id,
                   name: @s3.name,
                   artist: @s3.artist,
                   album: @s3.album,
@@ -87,6 +88,40 @@ RSpec.describe 'Favorites API endpoint', type: :request do
       expect(favorite[:rating]).to eq(@s3.rating)
 
       expect(@user.favorites.count).to eq(3)
+    end
+
+    it 'user can update an existing favorite' do
+      params = {
+                  source_track_id: @s1.source_track_id,
+                  name: @s1.name,
+                  artist: @s1.artist,
+                  album: @s1.album,
+                  genre: @s1.genre,
+                  rating: @s1.rating
+                }
+
+      put "/api/v1/favorites/#{@f2.id}", params: params
+
+      favorite = JSON.parse(response.body, symbolize_names: true)[:data][:attributes]
+
+      expect(response.status).to eq(200)
+
+      expect(favorite[:name]).to eq(@s1.name)
+      expect(favorite[:album]).to eq(@s1.album)
+      expect(favorite[:artist]).to eq(@s1.artist)
+      expect(favorite[:genre]).to eq(@s1.genre)
+      expect(favorite[:rating]).to eq(@s1.rating)
+    end
+
+    it 'user receives a 404 error when no favorite is found to update' do
+      put '/api/v1/favorites/not_found'
+
+      expect(response.status).to eq(404)
+
+      error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
+
+      expect(error[:status]).to eq(404)
+      expect(error[:title]).to eq('Not Found')
     end
 
     it 'user can delete an existing favorite' do

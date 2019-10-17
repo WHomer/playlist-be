@@ -1,9 +1,10 @@
 class Api::V1::FavoritesController < ApplicationController
   before_action :authenticate_user!
-  before_action :find_favorite, only: [:show, :destroy]
+  before_action :find_favorite, only: [:show, :update, :destroy]
 
   def index
     songs = current_user.songs
+
     render json: SongSerializer.new(songs)
   end
 
@@ -16,6 +17,12 @@ class Api::V1::FavoritesController < ApplicationController
 
   def show
     render json: SongSerializer.new(Song.find(@favorite.song_id))
+  end
+
+  def update
+    @favorite.song.update(song_params)
+
+    render json: SongSerializer.new(@favorite.song), status: 200
   end
 
   def destroy
