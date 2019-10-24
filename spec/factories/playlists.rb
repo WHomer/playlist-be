@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :playlist do
-    name { "MyString" }
-    user { nil }
+    user
+    name { Faker::Lorem.sentence }
   end
 end
