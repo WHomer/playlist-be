@@ -83,6 +83,38 @@ RSpec.describe 'Playlists API endpoint' do
       expect(error[:status]).to eq(404)
       expect(error[:title]).to eq('Not Found')
     end
+
+    it 'user can delete a song from a playlist' do
+      delete "/api/v1/playlists/#{@p1.id}/songs/#{@s2.id}"
+
+      message = JSON.parse(response.body, symbolize_names: true)[:message]
+
+      expect(response.status).to eq(200)
+
+      expect(message).to eq("Successfully removed #{@s2.name} from #{@p1.name}.")
+    end
+
+    it 'user recieves a 404 error if no playlist is found to DELETE' do
+      delete "/api/v1/playlists/not_found/songs/#{@s2.id}"
+
+      error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
+
+      expect(response.status).to eq(404)
+
+      expect(error[:status]).to eq(404)
+      expect(error[:title]).to eq('Not Found')
+    end
+
+    it 'user recieves a 404 error if no song is found to DELETE' do
+      delete "/api/v1/playlists/#{@p1.id}/songs/not_found"
+
+      error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
+
+      expect(response.status).to eq(404)
+
+      expect(error[:status]).to eq(404)
+      expect(error[:title]).to eq('Not Found')
+    end
   end
 
   describe 'as an unauthenticated user' do
@@ -116,6 +148,17 @@ RSpec.describe 'Playlists API endpoint' do
 
     it 'user receives a 404 error when adding a song to a playlist' do
       post "/api/v1/playlists/#{@p1.id}/songs/#{@s3.id}"
+
+      error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
+
+      expect(response.status).to eq(404)
+
+      expect(error[:status]).to eq(404)
+      expect(error[:title]).to eq('Not Found')
+    end
+
+    it 'user receives a 404 error when removing a song from a playlist' do
+      post "/api/v1/playlists/#{@p1.id}/songs/#{@s2.id}"
 
       error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
 
