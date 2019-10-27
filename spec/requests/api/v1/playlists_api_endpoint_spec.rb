@@ -13,10 +13,10 @@ RSpec.describe 'Playlists API endpoint' do
       @p1 = create(:playlist, user: @user)
       @p2 = create(:playlist, user: @user)
 
-      @ps1 = create(:playlist_song, playlist: @p1, song: @s1)
-      @ps1 = create(:playlist_song, playlist: @p1, song: @s2)
-      @ps1 = create(:playlist_song, playlist: @p2, song: @s3)
-      @ps1 = create(:playlist_song, playlist: @p2, song: @s4)
+      create(:playlist_song, playlist: @p1, song: @s1)
+      create(:playlist_song, playlist: @p1, song: @s2)
+      create(:playlist_song, playlist: @p2, song: @s3)
+      create(:playlist_song, playlist: @p2, song: @s4)
 
       sign_in @user
     end
@@ -42,37 +42,6 @@ RSpec.describe 'Playlists API endpoint' do
       expect(first_playlist_song[:genre]).to eq(@s1.genre)
       expect(first_playlist_song[:rating]).to eq(@s1.rating)
     end
-
-    it 'user can retrieve a single playlist by ID' do
-      get "/api/v1/playlists/#{@p1.id}/songs"
-
-      playlist = JSON.parse(response.body, symbolize_names: true)[:data][:attributes]
-      playlist_songs = playlist[:songs]
-      first_playlist_song = playlist_songs[0]
-
-      expect(response.status).to eq(200)
-
-      expect(playlist_songs.count).to eq(2)
-
-      expect(playlist[:name]).to eq(@p1.name)
-      expect(first_playlist_song[:source_track_id]).to eq(@s1.source_track_id)
-      expect(first_playlist_song[:name]).to eq(@s1.name)
-      expect(first_playlist_song[:album]).to eq(@s1.album)
-      expect(first_playlist_song[:artist]).to eq(@s1.artist)
-      expect(first_playlist_song[:genre]).to eq(@s1.genre)
-      expect(first_playlist_song[:rating]).to eq(@s1.rating)
-    end
-
-    it 'user receives a 404 error when no favorite is found to GET' do
-      get '/api/v1/playlists/not_found/songs'
-
-      error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
-
-      expect(response.status).to eq(404)
-
-      expect(error[:status]).to eq(404)
-      expect(error[:title]).to eq('Not Found')
-    end
   end
 
   describe 'as an unauthenticated user' do
@@ -95,17 +64,6 @@ RSpec.describe 'Playlists API endpoint' do
 
     it 'user receives a 404 error when retrieving all playlists' do
       get '/api/v1/playlists'
-
-      error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
-
-      expect(response.status).to eq(404)
-
-      expect(error[:status]).to eq(404)
-      expect(error[:title]).to eq('Not Found')
-    end
-
-    it 'user receives a 404 error when retrieving a single playlist by ID' do
-      get "/api/v1/playlists/#{@p1.id}/songs"
 
       error = JSON.parse(response.body, symbolize_names: true)[:errors][0]
 
