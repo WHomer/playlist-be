@@ -16,8 +16,9 @@ Rails.application.routes.draw do
       resources :favorites, except: [:new, :edit]
       resources :playlists, only: :index
 
-      get 'playlists/:id/songs', to: 'playlist_songs#index'
+      get 'playlists/:id/songs', to: 'playlist_songs#show'
       post 'playlists/:id/songs/:song_id', to: 'playlist_songs#create'
+      delete 'playlists/:id/songs/:song_id', to: 'playlist_songs#destroy'
     end
   end
 end
