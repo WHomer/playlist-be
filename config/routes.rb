@@ -15,6 +15,8 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :favorites, except: [:new, :edit]
       resources :playlists, only: :index
+
+      get '/playlists/:id/songs', to: 'playlists#show'
     end
   end
 end
