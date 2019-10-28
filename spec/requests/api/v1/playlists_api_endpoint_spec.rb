@@ -13,10 +13,10 @@ RSpec.describe 'Playlists API endpoint' do
       @p1 = create(:playlist, user: @user)
       @p2 = create(:playlist, user: @user)
 
-      @ps1 = create(:playlist_song, playlist: @p1, song: @s1)
-      @ps1 = create(:playlist_song, playlist: @p1, song: @s2)
-      @ps1 = create(:playlist_song, playlist: @p2, song: @s3)
-      @ps1 = create(:playlist_song, playlist: @p2, song: @s4)
+      create(:playlist_song, playlist: @p1, song: @s1)
+      create(:playlist_song, playlist: @p1, song: @s2)
+      create(:playlist_song, playlist: @p2, song: @s3)
+      create(:playlist_song, playlist: @p2, song: @s4)
 
       sign_in @user
     end
